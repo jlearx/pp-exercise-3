@@ -18,5 +18,14 @@ if __name__ == '__main__':
     
     print(b)
     
+    # Ask the user for the condition
+    b = []
+    limit = int(input("Please enter the upper limit: "))
+    print("Returning numbers less than " + str(limit) + ".")
     
+    for n in a:
+        if (n < limit):
+            b.append(n)
+    
+    print(b)
     
